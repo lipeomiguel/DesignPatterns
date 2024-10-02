@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UmaClasse = void 0;
-class UmaClasse {
+exports.Pessoa = void 0;
+class Pessoa {
     constructor(nome, sobrenome, idade) {
         this.nome = nome;
         this.sobrenome = sobrenome;
@@ -20,6 +20,7 @@ class UmaClasse {
         this.idade = idade;
     }
 }
-exports.UmaClasse = UmaClasse;
-const objClass = new UmaClasse("Name", "Sobre", 2);
+exports.Pessoa = Pessoa;
+const objClass = new Pessoa("Name", "Sobre", 2);
+console.log(objClass);
 //# sourceMappingURL=uml.js.map

@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/lipeomiguel/DesignPatterns#readme",
   "devDependencies": {
+    "nodemon": "^3.1.7",
+    "tsc-node": "^0.0.3",
     "typescript": "^5.6.2"
   }
 }

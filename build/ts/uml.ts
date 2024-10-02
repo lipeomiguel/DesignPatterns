@@ -1,4 +1,4 @@
-export class UmaClasse{
+export class Pessoa{
     constructor(
         private nome: string,
         public sobrenome: string,
@@ -17,4 +17,5 @@ export class UmaClasse{
         this.idade = idade;
     }
 }
-const objClass = new UmaClasse("Name","Sobre",2);
+const objClass = new Pessoa("Name","Sobre",2);
+console.log(objClass);
